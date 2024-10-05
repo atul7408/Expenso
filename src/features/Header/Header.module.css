@@ -1,0 +1,26 @@
+.nav {
+  padding: 30px 40px;
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.5em;
+  border: 2px solid transparent;
+}
+.logo:hover {
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 410px) {
+  .title {
+    display: none;
+    color: red;
+  }
+}

@@ -1,0 +1,19 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title {
+  font-family: cabinSketch;
+  letter-spacing: 4.4px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.back {
+  margin-top: 1em;
+  cursor: pointer;
+  width: fit-content;
+  margin-inline: auto;
+}

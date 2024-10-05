@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #6f6571;
+  --fs-200: clamp(0.78rem, calc(0.71rem + 0.35vw), 0.96rem);
+  --fs-300: clamp(0.94rem, calc(0.84rem + 0.51vw), 1.2rem);
+  --fs-400: clamp(1.13rem, calc(0.98rem + 0.73vw), 1.5rem);
+  --fs-500: clamp(1.94rem, calc(1.56rem + 1.92vw), 2.93rem);
+  --fs-600: clamp(2.8rem, calc(2.11rem + 3.47vw), 4.58rem);
+  --primary-color: #7abf90;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.fs-600 {
+  font-size: var(--fs-600);
+}
+.fs-500 {
+  font-size: var(--fs-500);
+}
+.fs-400 {
+  font-size: var(--fs-400);
+}
+.fs-300 {
+  font-size: var(--fs-300);
+}
+.fs-200 {
+  font-size: var(--fs-200);
+}
+.fw-b {
+  font-weight: 700;
+}
+.btn-black {
+  display: block;
+  background-color: #5d5360;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: var(--fs-200);
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  transition: 0.5s;
+}
+.btn-black:hover {
+  border: 2px solid white;
+  outline: 2px solid #5d5360;
+}
+
+.btn-error {
+  display: block;
+  background-color: #fc8d94;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: var(--fs-200);
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  transition: 0.5s;
+}
+.btn-error:hover {
+  border: 2px solid white;
+  outline: 2px solid #fc8d94;
+}
+
+.btn-color {
+  display: block;
+  background-color: hsl(var(--color));
+  color: white;
+  outline: none;
+  border: none;
+  font-size: var(--fs-200);
+  padding: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  transition: 0.5s;
+}
+.btn-color:hover {
+  border: 2px solid white;
+  outline: 2px solid hsl(var(--color));
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.border-card {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 2em;
+  background-color: #f2fff6;
+}
